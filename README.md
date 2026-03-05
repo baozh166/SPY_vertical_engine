@@ -164,6 +164,7 @@ This is extremely useful for:
 ==== Vertical Spread Value at S₁ ====
 Option type = put
 Expiration = 2026-03-06
+Confidence Level = 0.68
 Vertical spread position = short
 --------------------------------------------------
 S0: 686.96
@@ -182,7 +183,7 @@ p_long_bsm: 2.01
 Underlying S0 = 686.96
 Option type = put
 Expiration = 2026-03-06
-Confidence = 0.68
+Confidence Level = 0.68
 vertical spread position = short
 --------------------------------------------------------------------------------
       S1 |  K_short |   K_long |   Vertical mkt at S0 |   Vertical Value at S1
@@ -211,7 +212,7 @@ requests
 
 - Sticky Strike is ideal for **intraday** modeling, not multi‑day horizons  
 - Implied volatility extraction depends on bid/ask quality and may be noisy  
-- No caching layer yet — repeated data fetches may slow down execution  
+- No caching layer yet — Spot Ladder needs repeated data fetches
 - RapidAPI CNBC endpoint may rate‑limit heavy usage  
 - The model does not incorporate Sticky Delta, skew dynamics, or vol surface shifts  
 - Black‑Scholes assumptions (lognormal returns, constant rates, no jumps) may understate tail behavior  
