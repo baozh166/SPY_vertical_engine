@@ -101,7 +101,7 @@ Under Sticky Strike:
 > **The IV at each strike stays constant even if SPY moves (<1.5%).**
 
 This is realistic for:
-- 0–7 DTE SPY options  
+- 0–5 DTE SPY options  
 - Intraday moves  
 - Small to moderate spot changes  
 - Limit orders expected to fill within hours  
