@@ -162,10 +162,10 @@ This is extremely useful for:
 ## 📈 Sample Output
 ```
 ==== Vertical Spread Value at S₁ ====
-Option type = put
+Option Type = put
 Expiration = 2026-03-06
 Confidence Level = 0.68
-Vertical spread position = short
+Vertical Spread Position = short
 --------------------------------------------------
 S0: 686.96
 S1: 680.0
@@ -181,10 +181,10 @@ p_long_bsm: 2.01
 ```
 ==== SPOT LADDER (Sticky Strike) ====
 Underlying S0 = 686.96
-Option type = put
+Option Type = put
 Expiration = 2026-03-06
 Confidence Level = 0.68
-vertical spread position = short
+vertical Spread Position = short
 --------------------------------------------------------------------------------
       S1 |  K_short |   K_long |   Vertical mkt at S0 |   Vertical Value at S1
 --------------------------------------------------------------------------------
