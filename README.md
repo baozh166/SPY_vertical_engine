@@ -67,7 +67,7 @@ python vertical_engine.py --expiration 2026-03-06 --ladder --pct_moves -0.015 -0
 ## 🧩 Key Features
 
 - Real‑time SPY spot price (Yahoo Finance)  
-- Real‑time VIX (CNBC RapidAPI) 
+- Real‑time VIX (CNBC RapidAPI), along with choosen confidence level, for computing expected move
 - Automated strike selection based on expected move  
 - Bid/ask‑aware IV extraction  
 - Black‑Scholes repricing at future spot \(S₁\)  
