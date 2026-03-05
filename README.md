@@ -4,11 +4,11 @@
 A lightweight, desk‑style pricing engine for **SPY vertical spreads**, designed for **intraday limit‑order decision making**.  
 This tool computes:
 
-- The strikes from expected move determined by the confidence level (**conf.** -> move -> strikes)
+- The **strikes** from expected move determined by the confidence level (**conf.** -> move -> strikes)
 - The **implied volatilities** of each leg at the current spot price \(S₀\)  
 - The **future value** of the vertical spread at a hypothetical spot \(S₁\)  
-- Support for **long** and **short** vertical spreads  
-- A **spot ladder** showing how the spread behaves across multiple scenarios 
+- A **spot ladder** showing how the spread behaves across multiple scenarios  
+- Support for **short** and **long** vertical spreads 
 
 The engine uses the **Sticky Strike** assumption — the most realistic model for repricing short‑dated SPY options over minutes to hours.
 
