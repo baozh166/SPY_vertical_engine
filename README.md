@@ -165,13 +165,11 @@ This is extremely useful for:
 | `--expiration` | str | Option expiration date in `YYYY-MM-DD` format. |
 | `--opt_type` | str | Option type: `call` or `put`. |
 | `--position` | str | Vertical spread position: `long` or `short`. |
-| `--spread_width` | float | Width of the vertical spread (difference between strikes). |
-| `--confidence` | float | Confidence level for expected move (e.g., 0.68). |
+| `--spread_width` | float | Width of the vertical spread, i.e. the difference between strikes, default=1 |
+| `--confidence` | float | Confidence level (default=0.68) for expected move (EM). The short strkies are one EM above/below spot S₀ |
 | `--S1` | float | Single future spot price for repricing. |
-| `--ladder` | int | Number of spot points above/below S₀ for ladder repricing. |
+| `--ladder` | flag | Enables multiple spot points above/below S₀ for ladder repricing. |
 | `--pct_moves` | float | Percentage move increments for spot ladder. |
-| `--manual_short` | 3 floats | Manual override `[bid, ask, last]` for the short leg. |
-| `--manual_long` | 3 floats | Manual override `[bid, ask, last]` for the long leg. |
 
 
 ## 📈 Sample Output
