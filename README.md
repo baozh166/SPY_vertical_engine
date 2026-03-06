@@ -158,6 +158,21 @@ This is extremely useful for:
 ## 📊 Pricing Workflow Diagram
 <img width="1974" height="8192" alt="SPYOPP" src="https://github.com/user-attachments/assets/6c96610e-6aa2-47fd-b3f6-1461615729da" />
 
+## 🔧 Arguments
+
+| Argument | Type | Description |
+|---------|------|-------------|
+| `--expiration` | str | Option expiration date in `YYYY-MM-DD` format. |
+| `--opt_type` | str | Option type: `call` or `put`. |
+| `--position` | str | Vertical spread position: `long` or `short`. |
+| `--spread_width` | float | Width of the vertical spread (difference between strikes). |
+| `--confidence` | float | Confidence level for expected move (e.g., 0.68). |
+| `--S1` | float | Single future spot price for repricing. |
+| `--ladder` | int | Number of spot points above/below S₀ for ladder repricing. |
+| `--pct_moves` | float | Percentage move increments for spot ladder. |
+| `--manual_short` | 3 floats | Manual override `[bid, ask, last]` for the short leg. |
+| `--manual_long` | 3 floats | Manual override `[bid, ask, last]` for the long leg. |
+
 
 ## 📈 Sample Output
 ```
